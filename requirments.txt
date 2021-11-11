@@ -3,3 +3,5 @@ emoji
 colour
 theme
 wallpaper
+dark mode
+video calls
