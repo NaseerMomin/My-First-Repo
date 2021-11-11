@@ -1,0 +1,5 @@
+This chat application
+emoji
+colour
+theme
+wallpaper
