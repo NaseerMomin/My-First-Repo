@@ -5,3 +5,5 @@ theme
 wallpaper
 dark mode
 video calls
+laptop vs code
+github
