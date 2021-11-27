@@ -1,0 +1,13 @@
+Command: init
+
+The terraform init command is used to initialize a working directory containing Terraform configuration files.
+This is the first command that should be run after writing a new Terraform configuration or cloning an existing.
+one from version control.
+It is safe to run this command multiple times.
+
+Command: plan
+
+Reading the current state of any already-existing remote objects to make sure that the Terraform state is up-to-date.
+Comparing the current configuration to the prior state and noting any differences.
+Proposing a set of change actions that should, if applied, make the remote objects match the configuration.
+
