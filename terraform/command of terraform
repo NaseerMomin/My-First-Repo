@@ -11,3 +11,12 @@ Reading the current state of any already-existing remote objects to make sure th
 Comparing the current configuration to the prior state and noting any differences.
 Proposing a set of change actions that should, if applied, make the remote objects match the configuration.
 
+Command: apply
+The terraform apply command executes the actions proposed in a Terraform plan.
+
+The most straightforward way to use terraform apply is to run it without any arguments at all, in which case it will automatically create a new execution plan (as if you had run terraform plan) and then prompt you to approve that plan, before taking the indicated actions.
+
+Command: destroy
+
+The terraform destroy command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
+While you will typically not want to destroy long-lived objects in a production environment, Terraform is sometimes used to manage ephemeral infrastructure for development purposes, in which case you can use terraform destroy to conveniently clean up all of those temporary objects once you are finished with your work.
